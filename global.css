@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(./img/silly.png);
+}
+
+.title {
+    text-align: center;
+    font-size: 72px;
+    margin: 0;
+}
+
+.content {
+    margin: 0 10rem;
+    padding: 0 1rem;
+    background-color: rgba(255,255,255, 0.85);
+    height: 100%;
+}
+
+.game-thumbnail-wrapper {
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    transition: 200ms
+}
+
+.game-thumbnail-wrapper:hover {
+    border-color: #555;
+    transition: 200ms;
+}
+
+.game-thumbnail-image {
+    width: 100%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 117, 172)
+}
+
+.back-link {
+    position: absolute;
+    top: 0.5rem;
+    padding: 5px;
+}
