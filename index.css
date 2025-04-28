@@ -1,0 +1,37 @@
+.projects-title {
+    font-size: 3.5vw;
+    color: #cecece;
+    margin: 0 0.5vw;
+}
+
+.project-list {
+     margin-bottom: 5vw;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 1vw;
+    background-color: #333333; /* MAYBE TEMPORARY */
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.2); /* ALSO MAYBE TEMPORARY */
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border: 0.25vw solid #444444;
+}
+
+.project-item:hover {
+    transform: scale(1.01);
+}
+
+.project-title {
+    font-size: 1.7vw;
+    color: #aaaaaa;
+    margin: 0.5vw 0 1vw;
+    text-transform: uppercase;
+}
+
+.project-title-2 {
+    font-size: 1.5vw;
+    margin: 0.5vw 0 1vw; 
+    color: #aaaaaa;
+}
