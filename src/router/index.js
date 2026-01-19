@@ -7,7 +7,7 @@ import ProjectsPage from '@/pages/ProjectsPage.vue'
 import ContactPage from '@/pages/ContactPage.vue'
 
 // Import individual project pages
-import mcpkgPage from '@/pages/projects/mcpkgPage.vue'
+import clicraftPage from '@/pages/projects/clicraftPage.vue'
 import TachyogenesisPage from '@/pages/projects/TachyogenesisPage.vue'
 
 // Define routes - add new pages here
@@ -29,14 +29,14 @@ const routes = [
   },
   // Individual project pages - add new projects here
   {
-    path: '/projects/mcpkg',
-    name: 'mcpkg',
-    component: mcpkgPage
+    path: '/projects/clicraft',
+    name: 'clicraft',
+    component: clicraftPage,
   },
   {
     path: '/projects/tachyogenesis',
     name: 'Tachyogenesis',
-    component: TachyogenesisPage
+    component: TachyogenesisPage,
   },
 
   {

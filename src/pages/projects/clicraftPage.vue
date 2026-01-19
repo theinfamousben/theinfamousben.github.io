@@ -5,22 +5,23 @@
     <section class="project-hero">
       <router-link to="/projects" class="back-link">← Back to Projects</router-link>
       <div class="project-emoji-large">󰍳</div>
-      <h1 class="page-title">mcpkg</h1>
-      <p class="project-description">
-        A simple Minecraft Mod Package Manager written in Node.js.
-      </p>
+      <h1 class="page-title">CLIcraft</h1>
+      <p class="project-description">A simple Minecraft Mod Package Manager written in Node.js.</p>
     </section>
 
     <section class="project-content">
       <div class="project-links-section">
-        <a href="#" onclick='alert("Not on NPM yet!")' class="project-btn primary" target="_blank"> View on NPM</a>
-        <a href="https://github.com/theinfamousben/mcpkg" class="project-btn secondary" target="_blank"> View on GitHub</a>
+        <a href="#" onclick="alert('Not on NPM yet!')" class="project-btn primary" target="_blank"> View on NPM</a>
+        <a href="https://github.com/theinfamousben/clicraft" class="project-btn secondary" target="_blank"> View on
+          GitHub</a>
       </div>
 
       <div class="project-body">
         <h2>Overview</h2>
         <p>
-          mcpkg is a command-line tool that simplifies the process of managing Minecraft mods. It allows users to easily install, update, and remove mods from their Minecraft installations using a simple package management system.
+          CLIcraft is a command-line tool that simplifies the process of managing Minecraft mods. It
+          allows users to easily install, update, and remove mods from their Minecraft installations
+          using a simple package management system.
         </p>
         <h2>Features</h2>
         <ul>
@@ -28,14 +29,15 @@
           <li>Create Client and Server instances</li>
           <li>Works with Fabric and Forge</li>
         </ul>
-        <a href="https://github.com/theinfamousben/mcpkg">More info on the GitHub Repo</a>
+        <a href="https://github.com/theinfamousben/clicraft">More info on the GitHub Repo</a>
       </div>
     </section>
   </div>
 </template>
 
 <style scoped>
-  @import url("https://www.nerdfonts.com/assets/css/webfont.css");
+@import url('https://www.nerdfonts.com/assets/css/webfont.css');
+
 .project-detail {
   min-height: calc(100vh - 80px);
   padding: 2rem;
@@ -63,7 +65,7 @@
 .project-emoji-large {
   font-size: 6rem;
   margin-bottom: 1.5rem;
-  font-family: "NerdFontsSymbols Nerd Font", sans-serif;
+  font-family: 'NerdFontsSymbols Nerd Font', sans-serif;
 }
 
 .page-title {
@@ -120,7 +122,7 @@
   text-decoration: none;
   font-weight: 600;
   transition: all 0.3s ease;
-  font-family: "NerdFontsSymbols Nerd Font", sans-serif;
+  font-family: 'NerdFontsSymbols Nerd Font', sans-serif;
 }
 
 .project-btn.primary {

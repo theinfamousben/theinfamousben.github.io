@@ -7,10 +7,9 @@
 
 export const projects = [
   {
-    id: 'mcpkg',
-    title: 'mcpkg',
-    description:
-      'A simple Minecraft Mod Package Manager written in Node.js.',
+    id: 'clicraft',
+    title: 'clicraft',
+    description: 'A simple Minecraft Mod Package Manager written in Node.js.',
     tags: ['Node.js', 'JavaScript', 'CLI'],
     emoji: '󰍳',
   },
@@ -21,4 +20,4 @@ export const projects = [
     tags: ['Unity', 'C#'],
     emoji: '󰮂',
   },
-];
+]
