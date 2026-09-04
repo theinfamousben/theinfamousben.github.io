@@ -1,0 +1,14 @@
+
+
+.fastfetch-window {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
