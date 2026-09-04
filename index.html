@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="/global.css">
     <link rel="stylesheet" href="/index.css">
     <script src="/scripts/global.js"></script>
+    <script src="https://iframe.chat/scripts/main.min.js"></script>
+    <script>
+        chattable.initialize({
+            stylesheet: "chattable.css"
+        });
+    </script>
     <title>Benjamin's Silly Corner!</title>
 </head>
 <body>
-
     <div class="content">
         <nav class="">
             <a class="nav-item" href="/">
@@ -29,7 +34,7 @@
             <br>
             <div class="fastfetch-window">
                 <div class="left">
-                    
+
                 </div>
                 <div class="right">
                     <div class="line"><p class="red">benjamin</p><p>@</p><p class="red">benjamins-site</p></div>
@@ -42,7 +47,15 @@
                 </div>
             </div>
             <br>
-            <div class="line"><p>&gt;</p><p id="blinker"></p></div>
+            <div class="line"><p>&gt;</p><p class="blinker"></p></div>
+        </div>
+        <div class="window">
+            <div class="line"><p>&gt; bulletin</p></div>
+            <h2>My Bulletin Board :3</h2>
+            <p>Feel free to type some messages :]</p>
+            <iframe src="https://iframe.chat/embed?chat=16255552" id="chattable" width="100%" height="400px" style="border-radius: 15px;"></iframe>
+            <br>
+            <div class="line"><p>&gt;</p><p class="blinker"></p></div>
         </div>
     </div>
 

@@ -1,6 +1,9 @@
 
 function blinker(blink) {
-    document.getElementById('blinker').innerHTML = blink ? "_" : "";
+    document.querySelectorAll('.blinker').forEach(q => {
+        q.innerHTML = blink ? "_" : "";
+    });
+    
     setTimeout(() => blinker(!blink), 300);
 }
 
