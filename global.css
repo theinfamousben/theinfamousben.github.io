@@ -27,7 +27,8 @@ nav {
     justify-content: center;
     height: 5em;
     background-color: rgba(100,100,100, 0.2);
-    min-width: 750px;
+    width: 100%;
+    box-sizing: border-box;
     align-items: center;
     margin: 15px auto;
     padding: 0 15px;
@@ -38,7 +39,8 @@ nav {
 
 .window {
     background-color: rgba(100,100,100, 0.2);
-    min-width: 750px;
+    width: 100%;
+    box-sizing: border-box;
     align-items: center;
     margin: 15px auto;
     padding: 15px;
@@ -72,6 +74,7 @@ nav {
     flex-direction: column;
     margin: 0 auto;
     width: 70%;
+    max-width: 100%;
 }
 
 :root {
@@ -82,7 +85,12 @@ nav {
 
 a {
     color: white;
+}
+
+a.tradlink {
     text-decoration: none;
+    border-bottom: 2px dotted;
+    padding-bottom: 1px; 
 }
 
 a:hover {
@@ -91,13 +99,19 @@ a:hover {
 
 .line {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .line p {
     margin: 0;
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 .red {
     color: rgb(255, 78, 78);
 }
 
+.yellow {
+    color: rgb(231, 255, 96);
+}
