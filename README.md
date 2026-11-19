@@ -1,4 +1,4 @@
-# my personal site :3
+# [my personal site :3](https://benmu.dev)
 
 uhh yeah its my personal site where i put personal things :]
 
